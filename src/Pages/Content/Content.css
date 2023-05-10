@@ -1,0 +1,74 @@
+.info_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.Movie_details img {
+  height: 450px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.Movie_title {
+  font-size: 1.7rem;
+  font-weight: 300;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Movie_summary {
+  width: 100%;
+}
+
+.Movie_Rating {
+  font-size: 20px;
+}
+
+.Movie_timing {
+  font-size: 20px;
+}
+
+.language {
+  font-size: 20px;
+}
+
+.BookForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 90%;
+}
+
+.form-box {
+  height: 100%;
+}
+
+.Buttons_div {
+  width: 100%;
+}
+.Buttons_div button {
+  margin-left: 20px;
+}
+
+.Booked_heading {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.Contact_info {
+  font-size: 25px;
+}
+.Contact_info span {
+  font-weight: bold;
+}
+
+.Menu_link a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  text-decoration: underline;
+  font-size: 30px;
+}/*# sourceMappingURL=Content.css.map */

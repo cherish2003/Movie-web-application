@@ -1,0 +1,143 @@
+img {
+  max-width: 100%;
+}
+
+.genre {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 3px;
+  font-size: 12px;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.4);
+  border: 1px solid;
+  transition: 0.3s;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.genre + .genre {
+  margin-left: 8px;
+}
+
+.genre:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.Movie_card {
+  position: relative;
+  max-width: 260px;
+  padding: 0 20px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Img_src {
+  max-height: 240px;
+  width: 100%;
+  overflow: hidden;
+  font-size: 0;
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  z-index: 2;
+}
+.Img_src img {
+  width: 100%;
+}
+
+.Img_src:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 20%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+  z-index: 1;
+}
+
+.Img_src > img {
+  transition: 1s;
+}
+
+.Card_title {
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0;
+}
+
+.Card_date {
+  font-size: 13px;
+  margin: 8px 0 12px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: normal;
+}
+
+.Movie_genres {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Movie_div {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: #fff;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.Card_content {
+  padding: 0 20px 20px;
+  margin-top: auto;
+  width: 100%;
+}
+
+.Movie_genres > .genre {
+  padding: 3px 5px;
+}
+
+.Movie_div:hover > .Img_src > img {
+  transform: scale(1.2);
+  filter: grayscale(80%) opacity(0.3);
+}
+
+.Card_link {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 13px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  top: 20px;
+  left: 20px;
+  overflow: hidden;
+  padding: 8px 10px;
+  z-index: 3;
+  width: calc(100% - 40px);
+  position: absolute;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Card_link a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+.Movie_div:hover .Card_link {
+  opacity: 1;
+  transform: none;
+}/*# sourceMappingURL=Home.css.map */
