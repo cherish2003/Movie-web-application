@@ -15,11 +15,8 @@ This project is a movie web application built using React.js and SCSS, which dis
 ## Features
 
 1. Users can view a list of movies fetched from an API.
-2. Users can search for movies by title using the search bar.
-3. Users can filter movies by genre using the dropdown menu.
-4. Users can click on a movie to view its details, including the poster, title, release date, and overview.
-5. Users can navigate between pages using the pagination component.
-6. Users can switch between light and dark themes using the toggle button.
+2. Users can click on a movie to view its details, including the poster, title, release date, and overview.
+3. Users can navigate between pages using the pagination component.
 
 ## Technologies Used
 
