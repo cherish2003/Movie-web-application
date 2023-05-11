@@ -29,8 +29,9 @@ This project is a movie web application built using React.js and SCSS, which dis
 
 ## API
 
-This application uses the [The tvmaze API](https://www.tvmaze.com/api). In order to use the API, you will need to sign up for a free account and obtain an API key.
+This application uses the [The tvmaze API](https://www.tvmaze.com/api)
+
+##  [Live Link](https://movie-web-application-mjrmatadk-cherish2003.vercel.app/)
 
 ## Credits
-
 This project was created by [Cherish](https://github.com/cherish2003).
